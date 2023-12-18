@@ -15,7 +15,21 @@ const { NotImplementedError } = require('../extensions/index.js');
  */
 function transform(/* arr */) {
   throw new NotImplementedError('Not implemented');
-  // remove line with error and write your code here
+  // if (Array.isArray(arr)) {
+  //   arr.forEach((element, index) => {
+  //     if (element) {
+  //       if (element == '--double-next') {
+  //         arr.splice(index + 1, 0, element)
+  //         arr.splice(index, 1);
+  //       }
+  //       if (element == '--double-prev') {
+  //         arr.splice(index - 1, 0, element)
+  //         arr.splice(index, 1)
+  //       }
+  //       return arr;
+  //     }
+  //   });
+  // }
 }
 
 module.exports = {
